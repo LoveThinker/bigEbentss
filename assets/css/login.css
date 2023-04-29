@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*百分比相对于父盒子来说*/
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background: url("/assets/images/login_bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.layui-main {
+    margin-top: 30px;
+}
+
+.loginAndRegBox {
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
